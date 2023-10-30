@@ -1,0 +1,11 @@
+family = ["irma", "nika", "spartaki"]
+family_ages = [54, 14, 64]
+family_ages_in_10_years = []
+
+for age in family_ages:
+    family_ages_in_10_years.append(age + 10)
+
+print("My moms name is: {}, My brothers name is: {}, My name is: {}".format(family[0],family[1],family[2]))
+print("My mom is: {}, years old, my brother: {}, i am: {}".format(family_ages[0],family_ages[1],family_ages[2]))
+print("In 10 years My mom will be: {}, years old, my brother: {}, i will be: {}".format(family_ages_in_10_years[0],family_ages_in_10_years[1],family_ages_in_10_years[2]))
+print("My mom's name is {} and she is {} years old, My brother's name is {} and he is {} years old, My name is {} and am {} years old".format(family[0], family_ages[0],family[1], family_ages[1], family[2], family_ages[2] ))
